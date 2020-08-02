@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=FilterDemo7.21/D:\/Application\/apache-tomcat-9.0.24\/lib\/servlet-api.jar&lt;javax.servlet(Filter.class[Filter" modifiers="1537" timestamp="1565792256000"/>
+    <typeInfo handle="=FilterDemo7.21/D:\/Program Files\/Java\/jdk1.8.0_251\/jre\/lib\/rt.jar&lt;java.util.logging(Filter.class[Filter" modifiers="1537" timestamp="1593747852342"/>
+    <typeInfo handle="=ListenerDemo7.21/D:\/Application\/apache-tomcat-9.0.24\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpSessionListener.class[HttpSessionListener" modifiers="1537" timestamp="1565792256000"/>
+</typeInfoHistroy>

@@ -1,0 +1,24 @@
+package com.etc.dao;
+
+import java.sql.SQLException;
+
+import javax.sql.rowset.CachedRowSet;
+
+import com.etc.util.DBUtil;
+
+public class FirmDao {
+	DBUtil dbUtil =  new DBUtil();
+	public boolean checkLogin(String email, String pwd) {
+		String sql = "select * from ∆Û“µ±Ì where firmEmail = ? and firmPwd = ?";
+		CachedRowSet crs = dbUtil.Query(sql, email,pwd);
+		try {
+			if (crs.next()) {
+				return true;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return false;
+		
+	}
+}

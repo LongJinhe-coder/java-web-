@@ -1,0 +1,46 @@
+package com.etc.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.sql.rowset.CachedRowSet;
+
+import com.etc.entity.Firm;
+import com.etc.util.DBUtil;
+
+public class FirmDao {
+	DBUtil dbUtil =  new DBUtil();
+	public String checkLogin(String email, String pwd) {
+		String sql = "select * from 企业表 where firmEmail = ? and firmPwd = ?";
+		CachedRowSet crs = dbUtil.Query(sql, email,pwd);
+		try {
+			if (crs.next()) {
+				String userName = crs.getString("firmAccount");
+				return userName;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+	
+	//查询所有企业
+			public List<Firm> queryAllFirms() {
+				String sql = "select * from 企业表";
+				List<Firm> list = (List<Firm>)dbUtil.Select(sql, Firm.class);
+				System.out.println("企业表长度="+list.size());
+				return list;
+				
+			}
+			public boolean addFirm(Firm firm) {
+				//编写sql 语句  insert into 用户表 VALUES(null,"深度学习",1)
+				String sql  = "insert into 企业表 values(null,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+				//初始化一个result变量
+					int result =  0;
+					//参数  名称  
+					result  = dbUtil.update(sql,firm.getAdminID(),firm.getFirmAccount(),firm.getRegisterTime(),firm.getFirmName(),firm.getRegisterArea(),firm.getFirmNature(),firm.getRegisterFund(),firm.getFirmBrief(),firm.getLinkMan(),firm.getLinkPhone(),firm.getFirmArea(),firm.getRegisterNum(),firm.getFirmEmail(),firm.getCheckStatus(),firm.getFirmPwd(),firm.getAccountStatus());		
+					return result>0;
+						
+				}
+}

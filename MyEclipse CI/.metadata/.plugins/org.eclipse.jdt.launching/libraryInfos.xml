@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="D:\Application\Myeclipse\binary\com.sun.java.jdk10.win32.x86_64_1.10.1" version="10.0.1"/>
+    <libraryInfo home="D:\Application\myeclipse\binary\com.sun.java.jdk10.win32.x86_64_1.10.1" version="10.0.1"/>
+    <libraryInfo home="D:\Program Files\Java\jdk1.8.0_251" version="1.8.0_251">
+        <bootpath>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar"/>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="D:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>
