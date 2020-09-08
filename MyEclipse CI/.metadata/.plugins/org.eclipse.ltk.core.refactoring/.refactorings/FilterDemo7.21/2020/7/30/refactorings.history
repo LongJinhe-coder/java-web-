@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;errorinfo.jsp&apos; to &apos;WebRoot&apos;" description="Move &apos;errorinfo.jsp&apos; to &apos;WebRoot&apos;" destination="WebRoot" element1="WebRoot/WEB-INF/errorinfo.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1595304742038" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;succeed.jsp&apos; to &apos;WebRoot&apos;" description="Move &apos;succeed.jsp&apos; to &apos;WebRoot&apos;" destination="WebRoot" element1="WebRoot/WEB-INF/succeed.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1595304747528" updateReferences="true"/>
-</session>

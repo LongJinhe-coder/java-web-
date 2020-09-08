@@ -150,19 +150,9 @@
         <url>jdbc:hsqldb:hsql://&lt;server&gt;[:&lt;1476&gt;]</url>
     </Bean>
     <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
-        <driverClassName>org.hsqldb.jdbcDriver</driverClassName>
-        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-19</string>
-        </identifier>
-        <jarFileName/>
-        <jarFileNames Indexed="true"/>
-        <name>HSQLDB Standalone</name>
-        <url>jdbc:hsqldb:&lt;databaseName&gt;</url>
-    </Bean>
-    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
         <driverClassName>org.apache.derby.jdbc.ClientDriver</driverClassName>
         <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>63d4e7ef:173223d54a6:-7fde</string>
+            <string>-36c42ad4:173b733171a:-7fde</string>
         </identifier>
         <jarFileName/>
         <jarFileNames Indexed="true">
@@ -172,6 +162,16 @@
         </jarFileNames>
         <name>MyEclipse Derby</name>
         <url>jdbc:derby://&lt;host&gt;:&lt;port&gt;/&lt;db&gt;</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>org.hsqldb.jdbcDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-19</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true"/>
+        <name>HSQLDB Standalone</name>
+        <url>jdbc:hsqldb:&lt;databaseName&gt;</url>
     </Bean>
     <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
         <driverClassName>sun.jdbc.odbc.JdbcOdbcDriver</driverClassName>

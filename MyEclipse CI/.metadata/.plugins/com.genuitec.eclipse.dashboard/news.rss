@@ -12,12 +12,25 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Sat, 11 Jul 2020 09:45:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Aug 2020 21:34:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	
 	<item>
+		<title>CodeMix 2020.7.22 &#8211; Angular 10 and Quasar in Eclipse</title>
+		<link>https://www.genuitec.com/codemix-2020-7-22-angular-10-quasar/</link>
+		<pubDate>Wed, 22 Jul 2020 19:55:49 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[In Product]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=661240</guid>
+		<description><![CDATA[<p>CodeMix 2020.7.22 adds support for Angular 10, Quasar (a new Vue.js based framework), and includes key fixes that keep CodeMix running smoothly with the latest versions of Eclipse.</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/codemix-2020-7-22-angular-10-quasar/">CodeMix 2020.7.22 &#8211; Angular 10 and Quasar in Eclipse</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
 		<title>We Heard You—CodeTogether 2.0 Now with Simultaneous Coding!</title>
 		<link>https://www.genuitec.com/codetogether-2-0-is-here/</link>
 		<pubDate>Mon, 06 Jul 2020 20:28:36 +0000</pubDate>
@@ -196,20 +209,6 @@
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/codemix-2019-10-29-you-code-we-build/">CodeMix 2019.10.29 &#8211; You Code, We Build</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
-		<item>
-		<title>React Native Authentication with Facebook</title>
-		<link>https://www.genuitec.com/react-native-authentication-with-facebook/</link>
-		<pubDate>Thu, 26 Sep 2019 20:05:49 +0000</pubDate>
-		<dc:creator><![CDATA[dunebook7]]></dc:creator>
-				<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[codemix]]></category>
-		<category><![CDATA[react native]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=623558</guid>
-		<description><![CDATA[<p>Learn how to create a simple React Native app that uses Facebook for authentication. We use CodeMix for development and the Expo toolchain to make this possible without needing XCode or Android Studio. Check out our newest Blog and see how it's done!</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/react-native-authentication-with-facebook/">React Native Authentication with Facebook</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
 	</channel>
 </rss>
 
@@ -218,5 +217,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Content Delivery Network via resources.cloud.genuitec.com
 
-Served from: www.genuitec.com @ 2020-07-11 13:00:59 by W3 Total Cache
+Served from: www.genuitec.com @ 2020-08-03 16:55:13 by W3 Total Cache
 -->
